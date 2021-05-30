@@ -1,0 +1,11 @@
+[1] Adaptive learning activities can adjust in real time to a learner's needs, encouraging the development of higher-level abilities such as combining information from many fields to solve real-world situations.
+
+[2] Adaptive games are considered superior over non-adaptive games due to the fact that the children's performance are assessed constantly and adjust the difficulty of activities to match the children's individual level.
+
+[3] (1) apart from learners’ cognitive ability, it is important to consider affective factors such as motivation in adaptive learning, (2) lack of alignment among various components in an adaptive system can impact how learners accessed the system and, more importantly, their performance, and (3) visualizations can reveal interesting findings that can be missed otherwise.
+
+[1] C. Pfeiffer, A. Jabbar, "Adaptive e-Learning: Emerging Digital Tools for Teaching Parasitology," vol. 35, no. 4, pp. 270-274, April, 2019. [Abstract]. Available: Science Direct, https://www.sciencedirect.com/science/article/abs/pii/S1471492219300212
+
+[2] S. Vanbecelaere, et al.,"The effectiveness of adaptive versus non-adaptive learning with digital educational games," vol.36, no. 4, pp. 502-513, December, 2019. [Abstract]. Available: Wiley Online Library, https://onlinelibrary.wiley.com/doi/abs/10.1111/jcal.12416
+
+[3] Min Liu, et al., "Using Data to Understand How to Better Design Adaptive Learning," no. 22, pp. 271-298, 2017. [Abstract]. Available: Spring Link, https://link.springer.com/article/10.1007/s10758-017-9326-z
