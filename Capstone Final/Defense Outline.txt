@@ -1,0 +1,41 @@
+intro - Jmar
+
+sop - Gelo
+
+- explain kada bullet per question
+1)LIM
+	- assessing of children knowledge - assess using graded assessments
+	- engaged with lessons - entertainment based approach on learning
+	- cognitive ability - through adaptive learning activities and educational videos
+2)FEATURES
+	-adaptive learning and entertainment based activities and videos
+3)WEB DEV
+	- functionality - kung angkop ba ung ginawang system as cai at kung lahat nagana features
+	- usability - kung madali bang gamitin ng user ang system. 
+		 - naiiwas natin sa errors ung user sa paggamit ng system
+	- efficiency - kung mabilis processing time ng materials
+	- maintainability - kung kayang mag adapt sa changes sa environment at pwede pag iimrpove.
+4) TEACHER
+	- functionality - kung tingin ng teacher matututo ang bata sa pag gamit ng system
+	- usability - kung madali bang gamitin ng user ang system. 
+		 - naiiwas natin sa errors ung user sa paggamit ng system
+	- efficiency - kung mabilis processing time ng materials
+	- portability - kung pwede bang magamit sa ibang platform ung system
+
+RRL
+
+EDUC SYST
+	- pandemic hinders the programs for preschool learning
+CHILD PSYCH
+	- importanteng mamotivate mag aral nag bata
+TRANSITION
+	- pandemic pushed implementation of modular and digital learning
+CAI
+	- effectivity ng cai sa teaching delivery at adaptive learning sa pagsupporta sa pagkatuto ng bata
+
+CHAP 3
+
+DESC RESEARCH
+	- describes a populations situation
+
+
