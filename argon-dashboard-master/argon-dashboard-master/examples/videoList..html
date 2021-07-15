@@ -385,7 +385,7 @@
                   <h3 class="mb-0 text-white">Video List</h3>
                 </div>
                 <div class="mr-2">
-                    <a href="#!" class="btn btn-success"><i class="fa fa-plus mr-2"></i>Add Video</a>
+                    <a href="#!" class="btn btn-success" data-toggle="modal" data-target="#modalVideoList"><i class="fa fa-plus mr-2"></i>Add Video</a>
                 </div>
               </div>
             </div>
@@ -539,5 +539,45 @@
   <!-- Argon JS -->
   <script src="../assets/js/argon.js?v=1.2.0"></script>
 </body>
-
+<div class="modal fade" id="modalVideoList" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add Video</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form role="form">
+          <div class="form-group mb-3">
+            <p class="form-text small">Video Title</p>
+              <div class="input-group input-group-merge input-group-alternative">
+                  <input class="form-control" placeholder="Enter Video title" type="question">
+              </div>
+          </div>
+          <div class="form-group mb-3">
+            <p class="form-text small">Video Category</p>
+              <div class="input-group input-group-merge input-group-alternative">
+                  <select class="form-control">
+                    <option value ="1">Science</option>
+                    <option value ="2">English</option>
+                    <option value ="3">Math</option>
+                    <option value ="4">Filipino</option>
+                    <option value ="5">GMRC</option>
+                  </select>
+              </div>
+          </div>
+          <div class="form-group mb-3">
+            <p class="form-text small">Upload File</p>
+              <input class="form-text small" type="file" id="video" name="video">
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 </html>

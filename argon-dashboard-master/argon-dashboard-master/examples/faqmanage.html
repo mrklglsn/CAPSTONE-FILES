@@ -392,7 +392,7 @@
                       <input class="form-control" placeholder="Search FAQs" type="text">
                     </div>
                   </div>
-                    <a href="#!" class="btn btn-success"><i class="fa fa-plus mr-2"></i>Add FAQs</a>
+                    <a href="#!" class="btn btn-success" data-toggle="modal" data-target="#modalFAQs"><i class="fa fa-plus mr-2"></i>Add FAQs</a>
               </div>
             </div>
             <div class="table-responsive">
@@ -549,5 +549,39 @@
   <!-- Argon JS -->
   <script src="../assets/js/argon.js?v=1.2.0"></script>
 </body>
+
+<div class="modal fade" id="modalFAQs" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add FAQs</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form role="form">
+          <div class="form-group mb-3">
+            <p class="form-text small">Question</p>
+              <div class="input-group input-group-merge input-group-alternative">
+                  <input class="form-control" placeholder="Enter Question" type="question">
+              </div>
+          </div>
+          <div class="form-group">
+            <p class="form-text small">Answer</p>
+              <div class="input-group input-group-merge input-group-alternative">
+                  <input class="form-control" placeholder="Enter Answer" type="answer">
+              </div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 </html>
