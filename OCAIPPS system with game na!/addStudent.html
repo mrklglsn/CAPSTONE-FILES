@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+        <title>Online CAI for Public Preschool Students</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+    
+        <!-- Favicons -->
+        <link href="assets/img/favicon.png" rel="icon">
+        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <nav class="mb-1 navbar navbar-expand-lg text-white-50 nav-menu">
+            <a class="navbar-brand" href="#"><img src="assets/img/apple-touch-icon.png" width="50px"></a>
+
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+              aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+              <ul class="navbar-nav ml-auto nav-flex-icons nav-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="" data-toggle="modal" data-target="#modalMessage">Messages
+                    <span class="sr-only"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="overview.html" data-toggle="modal" data-target="#modalPassword">Profile
+                    <span class="sr-only"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+            <div class="container">
+                <div class="row justify-content-center py-5">
+                    <h3 class="add-student-header">Student Profile</h3>
+                </div>
+
+                <div class="row d-inline-flex justify-content-center">
+                    <div class="col-6 col-sm-3">
+                    <a class="btn" href="studentSide.html">
+                        <img src="images/user1.png" class="card-img-top">
+                    </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Angelo</h5>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                    <a class="btn" href="#">    
+                        <img src="images/user2.png" class="card-img-top">
+                    </a>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Sonson</h5>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <a class="btn" href="addProfile1.html">
+                            <img src="images/add.png" class="card-img-top">
+                        </a>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Add New</h5>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="fixed-bottom">
+              <a href="#">
+              <img src="https://s3-us-west-1.amazonaws.com/powr/chat/icons/icon1-1.svg" class="float-right p-2" height="75px">
+            </a>
+              </div>
+    </body>
+
+
+    <div class="modal fade" id="modalPassword" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+          <div class="modal-header header-main text-white">
+            <h5 class="modal-title" id="exampleModalLabel">Settings</h5>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+                <label for="password" class="control-label">Enter Password:</label>
+                <div>
+                    <input id="password" type="password" class="form-control" name="password"    autofocus>
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer footer-text">
+            <a  class="btn btn-danger" data-dismiss="modal">Close</a>
+            <a  class="btn btn-success" href="overview.html">Confirm</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</html>

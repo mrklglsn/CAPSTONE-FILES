@@ -1,0 +1,428 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+  }
+
+body
+{
+    background: #e7f7ff;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar
+{
+    background-color: #004A69;
+    color: white;
+    display: flex;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    
+}
+
+.nav-menu a {
+    display: block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    font-size: 15px;
+    padding: 0 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+  
+.nav-item
+{
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #00CB36;
+    background-color: #00CB36;
+    box-shadow: 2px 6px  #1a8ce4;
+    border-radius: 25px;
+}
+.nav-item:hover{
+    cursor: pointer;
+    transform: scale(1.050);
+}
+.nav-item a:hover
+{ 
+    color: #004A69;
+    
+}
+
+.jumbotron-on-image{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.jumbotron
+{
+    background-image: url("assets/img/about-bg-1.png");
+    background-size: cover;
+    
+}
+.jumbotron-title{
+    font-size: 7vw;
+    font-family: 'Poppins';
+    font-weight: bold;
+    display:flex;
+    color: #ffffff;
+    text-shadow: 4px 4px #00293a;
+}
+
+
+.jumbotron-no-background{
+    background-size: cover;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+.lead
+{
+    font-family: 'Poppins',sans-serif;
+    color: rgb(32, 32, 32);
+    
+}
+
+.btn-design
+{
+    border: 3px solid #00CB36;
+    background-color: #00CB36;
+    box-shadow: 2px 6px  #000000;
+    border-radius: 25px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.050);
+}
+.footer-text
+{
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.card-signin {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    box-shadow: 2px 6px  #0000004a;
+  }
+  
+  .card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  .card-signin .card-img-left {
+    width: 55%;
+    /* Link to your background image using in the property below! */
+    background: scroll center url('https://images.unsplash.com/photo-1501686637-b7aa9c48a882?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80');
+    background-size: cover;
+    
+  }
+  
+  .card-signin .card-body {
+    padding: 2rem;
+  }
+  
+  .form-signin {
+    width: 100%;
+  }
+  
+  .form-signin .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+  }
+  
+  input{
+      font-family: 'Poppins', sans-serif;
+  }
+  .form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label-group input {
+    height: auto;
+    border-radius: 2rem;
+  }
+  
+  .form-label-group>input,
+  .form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+  }
+  
+  .form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;   
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+  }
+  
+  .form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input:-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::-moz-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+  }
+  
+  .form-label-group input:not(:placeholder-shown)~label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .btn-register {
+    color: white;
+    background-color: #1a8ce4;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    box-shadow: 2px 6px  #0000003d;
+  }
+  
+  .btn-login {
+    color: white;
+    background-color: #00CB36;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    box-shadow: 2px 6px  #0000003d;
+  }
+  
+  .add-student-header{
+    font-size: 2.4rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+    display:flex;
+    color: #0078ac;
+  }
+  .btn-edit-profile
+{
+    background-color: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.hr-line{
+  height: 3px;
+  background: #00293a;
+  background-image: linear-gradient(to right, #00293a), #00293a, #00293a;
+}
+
+.account-settings{
+  font-size: 1.8rem;
+  font-family: 'Poppins';
+  font-weight: bold;
+  display:flex;
+  color: #00293a;
+}
+.tfont{
+  font-family: 'Poppins',sans-serif;
+}
+
+.btn-edit-profile
+{
+    background-color: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.border-profile{
+  border: 2px solid black;
+  background-color: none;
+  border-radius: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.border-setting{
+  background-color: none;
+  border-radius: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 25px;
+  text-align: center;
+}
+
+.header-main{
+  background-color: #004A69;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
+}
+.th-header{
+  background-color: #004A69;
+  color: white;
+}
+
+.tabs {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+#tab-button {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#tab-button li {
+  display: table-cell;
+  width: 100%;
+}
+#tab-button li a {
+  display: block;
+  padding: .5em;
+  background: #004A69;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+#tab-button li:not(:first-child) a {
+  border-left: none;
+}
+#tab-button li a:hover,
+#tab-button .is-active a {
+  background: #00CB36;
+}
+.tab-contents {
+  border: 1px solid #004A69;
+}
+
+
+
+.tab-button-outer {
+  display: none;
+}
+.tab-contents {
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .tab-button-outer {
+    position: relative;
+    z-index: 2;
+    display: block;
+  }
+  .tab-select-outer {
+    display: none;
+  }
+  .tab-contents {
+    position: relative;
+    top: -1px;
+    margin-top: 0;
+  }
+}
+.mascot-cointainer{
+  width: 250px;
+}
+
+
+.swing {
+  animation: swing ease-in-out 1s infinite alternate;
+  transform-origin: center -20px;
+  float:left;
+}
+.swing:after{
+  content: '';
+  position: absolute;  
+  width: 20px; height: 20px;  
+  bottom: -10px; left: 50%;
+  z-index: 0;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(2deg);
+}
+/* nail */
+.swing:before{
+  content: '';
+  position: absolute;
+  width: 5px; height: 5px;
+  top: -14px;left: 54%;
+  z-index: 5;
+  border-radius: 50% 50%;
+  background: #000;
+}
+
+@keyframes swing {
+  0% { transform: rotate(1deg); }
+  100% { transform: rotate(-1deg); }
+}
+
+.card img{
+  transform: translateY(-50px);
+  border-radius: 15px;
+  z-index: 1;
+}
+.card
+{
+  border-radius: 25px;
+}
+.card-title
+{
+  transform: translateY(-25px);
+}
+.card:hover{
+ transform: scale(1.01);
+ box-shadow: 0 0 30px rgba(33,33,33,.2); 
+}
