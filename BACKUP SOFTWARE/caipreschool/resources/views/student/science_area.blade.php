@@ -79,7 +79,7 @@
                 <div class="row fluid text-center">
                     @foreach ($quizzes as $quiz)
                         <div class="col-xs-12 col-sm-6 col-md-3">
-                            <a class="btn" href="#">
+                            <a class="btn" href="{{ route('student/science_area/assessment', $quiz->id) }}">
                                 <img class="card-img-top" src="{{ url('public/frontend/images/game_logos/assessment.png') }}">
                                 <h5 class="card-title text-center pt-1">{{ $quiz->title }}</h5>
                             </a>

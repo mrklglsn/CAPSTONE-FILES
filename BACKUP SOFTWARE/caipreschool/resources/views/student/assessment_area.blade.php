@@ -319,7 +319,7 @@
                     <a class="button-home p-2" href="{{ route("student/home", session()->get("LoggedStudent")) }}">
                         <img src="{{ url('public/frontend/images/home.png') }}" width="50%" class="btn">
                     </a>
-                    <a class="button-next p-2" href="{{ route("student/home") }}">
+                    <a class="button-next p-2" href="{{ route("student/home", session()->get("LoggedStudent")) }}">
                         <img src="{{ url('public/frontend/images/menu.png') }}" width="50%" class="btn">
                     </a>
                 </div>

@@ -64,7 +64,8 @@ class AdminController extends Controller
         return view('admin.videocategory');
     }
     //FUNCTION THAT RETURNS ADMIN TO THE ASSESSMENT MANAGE VIEW
-    function manageAssessments(){
+    function manageAssessments($subject, Request $request){
+        $request->session()->put('ViewSubject', $subject);
         return view('admin.assessment_manage');
     }
 

@@ -21,7 +21,7 @@ class SubjectController extends Controller
             return Datatables::of($subjects)
                     ->addIndexColumn()
                     ->addColumn('action', function($row){
-                        $btn = '<btn class="btn bg-success btn-sm text-white manageAssessments" data-toggle="modal" data-target="#modalSubject" data-id= '.$row->id.' >Manage Assessment</btn>';
+                        $btn = '<a class="btn bg-success btn-sm text-white viewAssessment" href="'.route('dashboard.manageassessments', $row->subject_name).'"><i class="fa fa-task"></i> Manage</a>';
                         $btn = $btn.'<btn class="btn bg-success btn-sm text-white editSubject" data-toggle="modal" data-target="#modalSubject" data-id= '.$row->id.' ><i class ="fa fa-edit mr-1"></i>Edit</btn>';
                         if($row->deleted_at != null)
                             $btn = $btn.'<btn class="btn bg-primary btn-sm text-white recoverSubject" data-toggle="modal" data-target="#modalActionSubject" data-id='.$row->id.' ><i class ="fa fa-trash mr-1"></i>Recover</btn>';

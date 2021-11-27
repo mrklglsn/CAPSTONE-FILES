@@ -23,6 +23,7 @@ class AssessmentController extends Controller
                 ->select('*','quizzes.deleted_at AS quiz_deleted_at', 'quizzes.id AS assessment_id',
                             DB::raw('count(questions.quiz_id) as numOfQuestion'))
                 ->leftJoin('questions', 'quizzes.id', '=', 'questions.quiz_id')
+                ->where('quizzes.subject', $request->session()->get('ViewSubject'))
                 ->groupBy('quizzes.title')
                 ->get();
 
@@ -42,7 +43,7 @@ class AssessmentController extends Controller
                     ->make(true);
         }
         
-        return view('admin.assessment_manage',compact('announcement'));
+        return view('admin.assessment_manage');
     }
 
     /**

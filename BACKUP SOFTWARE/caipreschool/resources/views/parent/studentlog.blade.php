@@ -5,15 +5,18 @@
           color: white;
         }
         table.dataTable tbody tr {
-          background-color: #ffffff71;
+          background-color: #ffffff00;
           
         }
         table.dataTable{
           width: 100%;
         }
         .tab-contents{
-          background-color: #ffffffc9;
+          background-color: #ffffffb6;
           padding: 0 10px 0 10px;
+        }
+        td {
+          text-transform:capitalize;
         }
       </style>
       <div class="tabs">

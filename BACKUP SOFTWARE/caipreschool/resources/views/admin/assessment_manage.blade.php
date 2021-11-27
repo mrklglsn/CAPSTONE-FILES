@@ -79,7 +79,7 @@
                     <div class="form-group mb-3">
                         <p class="form-text small">Title</p>
                         <div class="input-group input-group-merge input-group-alternative">
-                            <input class="form-control" name="quiz_id" id="quiz_id">
+                            <input class="form-control" name="quiz_id" id="quiz_id" hidden>
                             <input class="form-control" name="title" id="title" placeholder="Enter assessment title">
                         </div>
                     </div>

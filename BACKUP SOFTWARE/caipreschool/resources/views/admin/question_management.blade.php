@@ -58,7 +58,7 @@
                                     <div class="d-flex justify-content-center">
                                         <button class="btn btn-success add question w-50 add_question" data-toggle="modal" data-target="#modalAddQuestions" type="button"><i class="fa fa-plus"></i></button>
                                         
-                                        <a class="btn btn-primary add question w-20 pl-2" href="{{ route('dashboard.manageassessments') }}">
+                                        <a class="btn btn-primary add question w-20 pl-2" href="{{ route('dashboard.manageassessments', session()->get('ViewSubject')) }}">
                                             <i class="fa fa-check pr-2"></i>Done
                                           </a>
                                     </div>    

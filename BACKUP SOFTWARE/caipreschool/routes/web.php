@@ -72,7 +72,7 @@ Route::group(['middleware' => ['AuthCheck']],function(){
 
     Route::get('/admin/dashboard/manage-announcements', [AdminController::class, 'manageAnnouncements'])->name('dashboard.manageannouncements');
 
-    Route::get('/admin/dashboard/manage-assessments', [AdminController::class, 'manageAssessments'])->name('dashboard.manageassessments');
+    Route::get('/admin/dashboard/manage-assessments/{id?}', [AdminController::class, 'manageAssessments'])->name('dashboard.manageassessments');
 
     Route::get('/admin/dashboard/manage-topics', [AdminController::class, 'manageTopics'])->name('dashboard.managetopics');
 
@@ -108,6 +108,7 @@ Route::group(['middleware' => ['AuthCheck']],function(){
     Route::get('/admin/dashboard/manage-assessments/recover/{id?}', [AssessmentController::class, 'restore'] )->name('assessments.recover');
 
     Route::get('/admin/dashboard/manage-assessments/questions/{id?}', [AssessmentController::class, 'manageQuestions'] )->name('assessments.manage');
+    
 
     //MANAGE QUESTIONS CONTROLLERS
     Route::resource('questions', QuestionController::class);

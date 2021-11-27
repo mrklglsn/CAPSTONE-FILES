@@ -67,7 +67,6 @@
               </a>
               <div class="dropdown-menu">
                 <a class="dropdown-item text-center" href="{{ route('dashboard.managesubjects') }}">Subject Lists</a>
-                <a class="dropdown-item text-center" href="{{ route('dashboard.manageassessments') }}">Manage Assessments</a>
               </div>
             </li>
             

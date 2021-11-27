@@ -82,7 +82,7 @@
                 <div class="row">
                   <div class="col">
                     <h5 class="card-title text-uppercase text-muted mb-0">Total Faqs</h5>
-                    <span class="h2 font-weight-bold mb-0">15</span>
+                    <span class="h2 font-weight-bold mb-0">{{ count($faqs) }}</span>
                   </div>
                   <div class="col-auto">
                     <div class="icon icon-shape bg-gradient-gray text-white rounded-circle shadow">
@@ -99,8 +99,8 @@
               <div class="card-body">
                 <div class="row">
                   <div class="col">
-                    <h5 class="card-title text-uppercase text-muted mb-1">total announcement</h5>
-                    <span class="h2 font-weight-bold mb-0">9</span>
+                    <h5 class="card-title text-uppercase text-muted mb-1">total announcements</h5>
+                    <span class="h2 font-weight-bold mb-0">{{ count($announcements) }}</span>
                   </div>
                   <div class="col-auto">
                     <div class="icon icon-shape bg-gradient-blue text-white rounded-circle shadow">
@@ -190,7 +190,7 @@
       data: {
           labels: ['October', 'November', 'December'],
           datasets: [{
-              label: '# of Votes',
+              label: '# of Registered Student',
               data: [7, 19, 17],
               backgroundColor: [
                   'rgba(255, 99, 132, 0.2)',
