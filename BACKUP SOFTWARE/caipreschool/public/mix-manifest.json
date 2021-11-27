@@ -1,0 +1,12 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/jquery.dataTables.min.css": "/css/jquery.dataTables.min.css",
+    "/js/jquery.dataTables.min.js": "/js/jquery.dataTables.min.js",
+    "/css/video-js.min.css": "/css/video-js.min.css",
+    "/js/video.min.js": "/js/video.min.js",
+    "/js/sweetalert2.min.js": "/js/sweetalert2.min.js",
+    "/css/sweetalert2.min.css": "/css/sweetalert2.min.css",
+    "/js/toastify.js": "/js/toastify.js",
+    "/css/toastify.css": "/css/toastify.css"
+}
